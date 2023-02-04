@@ -1,0 +1,39 @@
+
+
+.logoInfo{
+    background-color: transparent;
+}
+
+.logo{
+    display: flex;
+    background-color: transparent;
+}
+
+.logoImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+    display: inline-flex;
+}
+
+.logoName{
+    font-size: 50px;
+    color: white;
+    margin-top: 5px;
+}
+
+.info{
+    font-size: 18px;
+    color: rgba(208, 98, 255, 0.837);
+    margin-top: 20px;
+    font-weight: 500;
+}
+.line1{
+    display: block;
+    margin-left: 60px;
+}
+
+.line2{
+    display: block;
+    margin-left: 74px;
+}

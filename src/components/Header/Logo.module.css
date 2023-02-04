@@ -1,0 +1,24 @@
+.logo{
+    background-color: transparent;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.logoImg{
+    width: 55px;
+    height: 45px;
+    padding-top: 20px;
+}
+
+.logoName{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#id_logoName{
+    color: rgba(255, 255, 255, 0.621);
+}

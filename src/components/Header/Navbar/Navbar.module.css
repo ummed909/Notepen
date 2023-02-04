@@ -1,0 +1,58 @@
+.navbar{
+    width: 1028px;
+    background-color: transparent;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+
+  .listItem {
+    background-color: transparent;
+    margin-left: 60px;
+  }
+
+
+  .listItem button {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+    font-weight: 540;
+    margin-top:10px;
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+#id_listItem button{
+  color: rgba(251, 251, 251, 0.677);
+} 
+.listItem button:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#id_listItem button:after{
+  background-color: rgba(255, 255, 255, 0.682);
+}
+.listItem button:hover:after { 
+  width: 100%; 
+  left: 0; 
+}

@@ -1,0 +1,60 @@
+.createButton button{
+    background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 70%,
+    rgb(35, 240, 114) 30%,
+    rgb(35, 240, 114) 100%
+  );
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    border-radius: 1000px;
+    color: black;
+    font-size: 17px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.createButton button:hover{
+    background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 70%,
+    rgb(35, 206, 240) 30%,
+    rgb(35, 206, 240) 100%
+  );
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    border-radius: 1000px;
+    color: black;
+    font-size: 17px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.textOfButton{
+    display: inline-block;
+    width: 65%;
+    margin-left: 5%;
+    font-size: 17px;
+    background-color: transparent;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+
+    
+    color: rgb(51, 46, 46);
+}
+
+.iconSpace{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+}
+
+.icon{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}

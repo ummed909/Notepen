@@ -1,0 +1,45 @@
+.lowerbody{
+    display: flex;height: 200px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: 550px;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.listItem{
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 10px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;    
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.871);
+    justify-content: center;
+}
+.listItem button{
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 0px;
+    height: 100%;
+    font-size: 20px;    
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.871);
+    justify-content: center;
+    border: 0px;
+}
+
+.listItem:hover{
+    background-color: rgba(9, 150, 185, 0.568);
+    margin-left: 10px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;    
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.871);
+    border-radius: 1000px;
+}

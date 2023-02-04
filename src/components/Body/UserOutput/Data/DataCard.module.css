@@ -1,0 +1,52 @@
+.dataCard{
+    width: 350px;
+    height: 300px;
+    
+    background:linear-gradient(135deg, #6decdf 0%,#9ab6f8 100%);
+    
+    border-radius: 30px;
+    box-shadow: rgba(45, 49, 54, 0.811) 2.4px 2.4px 3.2px;
+
+}
+
+.upperPart{
+    display: flex;
+    background-color: transparent;
+}
+
+.upperPart button{
+    font-size: 23px;
+    background-color: transparent;
+    border: 0px;
+    color: rgba(36, 5, 5, 0.736);
+}
+.upperPart button:hover{
+    font-size: 25px;
+    background-color: transparent;
+    border: 0px;
+    color: rgba(255, 0, 0, 0.996);
+}
+
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 80%;
+}
+.content{
+    background-color:transparent;
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+

@@ -1,0 +1,25 @@
+.ragistrationCard{
+    display: flex;
+}
+
+.imgcard{
+    background-color: rgb(20, 60, 111);
+    width: 50%;
+    margin-left: 0%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.img{
+    height: 600px;
+    width: 451px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.formCard{
+    background-color: rgb(32, 76, 92);
+    width: 50%;
+    height: 100%;
+    margin-right: 0%;
+    border-radius: 0px 20px 20px 0px;
+}

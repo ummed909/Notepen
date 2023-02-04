@@ -1,0 +1,60 @@
+.content{
+    background-color: transparent;
+    width: 70%;
+    margin-top: 20px;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.intro{
+margin-left: 50px;
+font-size: 17px;
+color: rgb(190, 129, 248);
+}
+
+.introHead{
+margin-left: 50px;
+margin-top: 25px;
+font-size: 30px;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.83);
+}
+
+
+.footerForm{
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.feedback{
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 500px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.667);
+    color: white;
+    font-size: 19px;
+}
+
+.sendButton{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(2, 247, 35);
+    border: 0px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.sendButton:hover{
+    background-color: rgba(47, 255, 0, 0.696);
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.icon{
+    margin-top: 5px;
+}

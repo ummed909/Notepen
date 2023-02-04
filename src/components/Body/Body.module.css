@@ -1,0 +1,14 @@
+.body{
+    padding-top: 50px;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    padding-bottom: 100px;
+    min-width:900px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;
+}
+#id_body{
+    padding-top: 50px;
+    background-color: rgb(24,24,24);
+    text-align: center;
+    padding-bottom: 100px;
+}

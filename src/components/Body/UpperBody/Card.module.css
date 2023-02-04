@@ -1,0 +1,25 @@
+.card{
+    /* background-color: rgba(176, 28, 199, 0.389); */
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 25%;
+    background-color:transparent;
+    padding-top: 40px;
+}
+
+.massegebox{
+    background-color: transparent;
+    width: 100%;
+    font-size: 35px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+

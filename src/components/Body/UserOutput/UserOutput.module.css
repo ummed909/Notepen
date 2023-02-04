@@ -1,0 +1,17 @@
+.userOutput{
+    background-color: rgb(228, 239, 238);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+#id_userOutput{
+    background-color: rgb(43, 91, 97);
+}
+.userOutput_dark{
+    background-color: rgb(44, 44, 44);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+

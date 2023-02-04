@@ -1,0 +1,33 @@
+.gridContainer{
+    display: grid;
+    padding: 10px;
+    background-color: transparent;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin-left: 14%;
+    row-gap: 30px;
+    column-gap: 20px;
+    
+}
+
+.reloadButton{
+    width: 8%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 1000px;
+    background-color: rgba(16, 203, 83);
+    border: 0px;
+    color: white;
+}
+
+.alert{
+    font-size: 20px;
+    background-color: rgba(255, 127, 80, 0.744);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 60px;
+    padding-top: 20px;
+}

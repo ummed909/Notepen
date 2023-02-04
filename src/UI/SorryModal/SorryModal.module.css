@@ -1,0 +1,52 @@
+.backdrope {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .okayButton{
+    width: 15%;
+    height: 25px;
+    margin-left: 75%;
+    margin-top: 20px;
+    font-weight: 550;
+    background-color: rgb(232, 211, 182);
+    border: 1px solid rgba(0, 0, 0, 0.564);
+    border-radius: 5px;
+  }
+
+
+  .modal {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+  }
+
+  /* @media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
